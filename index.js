@@ -1,1 +1,1 @@
-module.exports = 'semantic-release1';
+module.exports = 'semantic-release2';
