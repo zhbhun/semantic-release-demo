@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/zhbhun/semantic-release-demo/compare/v1.2.0...v2.0.0) (2021-01-06)
+
+
+### Features
+
+* next content to 6 ([7ffc2a6](https://github.com/zhbhun/semantic-release-demo/commit/7ffc2a64414a8e4ac76c411e1f8fda9de0a4059e))
+
+
+### BREAKING CHANGES
+
+* test
+
 # [1.2.0](https://github.com/zhbhun/semantic-release-demo/compare/v1.1.0...v1.2.0) (2021-01-06)
 
 
