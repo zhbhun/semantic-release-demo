@@ -1,10 +1,13 @@
-name: Publish
+name: publish
 
-on: push
+on:
+  push:
+    branches:    
+      - master
 
 jobs:
-  publish:
-    name: publish
+  publish_npm:
+    name: publish npm
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,4 +16,6 @@ jobs:
         with:
           node-version: 14.x
       - run: npm ci
-      - run: npx semantic-release -d
+      - env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release -d
