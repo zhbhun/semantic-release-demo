@@ -1,3 +1,10 @@
+## [1.2.1-beta.1](https://github.com/zhbhun/semantic-release-demo/compare/v1.2.0...v1.2.1-beta.1) (2021-01-06)
+
+
+### Bug Fixes
+
+* beta content to 6 ([4bc4da7](https://github.com/zhbhun/semantic-release-demo/commit/4bc4da7365418e9d0e8d1607f595588bdeb3964b))
+
 # [1.2.0](https://github.com/zhbhun/semantic-release-demo/compare/v1.1.0...v1.2.0) (2021-01-06)
 
 
