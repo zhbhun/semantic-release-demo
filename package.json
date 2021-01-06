@@ -1,5 +1,5 @@
 {
-  "name": "@zhbhun/semantic-release-demo",
+  "name": "zhbhun-semantic-release-demo",
   "version": "0.0.1",
   "description": "semantic release demo",
   "main": "index.js",
