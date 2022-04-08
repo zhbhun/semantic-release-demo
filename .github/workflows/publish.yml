@@ -19,8 +19,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - run: npm ci
-      - env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+      - run: echo ${{ secrets.GH_TOKEN1 }}
+      - run: echo ${{ secrets.GH_TOKEN }}
+      - run: echo ${{ secrets.NPM_TOKEN }}
+      # - run: npm ci
+      # - env:
+      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: npx semantic-release
